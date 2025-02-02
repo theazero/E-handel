@@ -1,4 +1,4 @@
-# E-handelswebbplats med React
+# E-handel med React
 
 Detta projekt är en e-handelsapplikation där användare kan bläddra bland produkter, lägga dem i en varukorg och genomföra ett fiktivt köp! Applikationen använder ett externt API för produktdata, användarhantering och orderhantering.
 
