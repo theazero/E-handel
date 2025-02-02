@@ -1,0 +1,188 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.nav-link2 {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+.nav-link3 {
+  color: rgb(13, 0, 255);
+  text-decoration: none;
+  font-style: italic;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+li{
+  list-style-type: none;
+  text-decoration: none;
+
+}
+
+.nav-link.active {
+  color: blue;
+}
+
+.nav-link2.active {
+  color: blue;
+}
+
+.productlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+  
+}
+
+.productlist li {
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infobutton {
+  color: black;
+  cursor: pointer;
+  background-color: rgb(221, 221, 221);
+  margin-bottom: 10px ;
+
+  &:hover {
+    background-color: lightgray;
+  }
+
+
+ 
+}
+
+.send-message {
+  margin-top: 3rem;
+  padding: 10px 20px;
+  display: flex;
+  justify-self: center;
+  text-decoration: none;
+  font-style: oblique;
+
+}
+
+.form-group {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-btn {
+  padding: 10px 20px;
+  background-color: lightgray;
+  color: black;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-self: center;
+
+  &:hover {
+    background-color: blue;
+    color: white;
+  }
+}
+
+.errormessage {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+
+.login-reg-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.login-reg-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  text-align: left;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+.form-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-button:hover {
+  background-color: #45a049;
+}
+
+/* Växla mellan formulärtyper */
+.switch-form {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.switch-button {
+  color: #007BFF;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.switch-button:hover {
+  color: #0056b3;
+}
